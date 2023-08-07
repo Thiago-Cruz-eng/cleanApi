@@ -1,0 +1,22 @@
+{
+  "name": "cleanapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "lint-staged": {
+    "*.js": [
+      "lint-staged",
+      "git add"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "lint-staged": "^13.2.3",
+    "standard": "^17.1.0"
+  }
+}
