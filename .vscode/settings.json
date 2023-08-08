@@ -1,0 +1,29 @@
+{
+    "editor.defaultFormatter": "standard.vscode-standard",
+    "javascript.format.semicolons": "remove",
+    "typescript.format.semicolons": "remove",
+    "typescriptHero.imports.insertSemicolons": false, 
+    "typescript.preferences.quoteStyle": "single",
+    "javascript.preferences.quoteStyle": "single",
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#adadad",
+        "activityBar.background": "#adadad",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#5858c7",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#15202b99",
+        "sash.hoverBorder": "#adadad",
+        "statusBar.background": "#949494",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#7a7a7a",
+        "statusBarItem.remoteBackground": "#949494",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#949494",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#94949499",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#949494",
+    
+}

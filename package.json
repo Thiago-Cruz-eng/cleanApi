@@ -4,19 +4,28 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:staged": "jest"
   },
   "lint-staged": {
     "*.js": [
-      "lint-staged",
+      "standard --fix",
+      "npm run test:staged",
       "git add"
+    ]
+  },
+  "standard": {
+    "env": [
+      "jest"
     ]
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^29.5.3",
     "jest": "^29.6.2",
     "lint-staged": "^13.2.3",
-    "standard": "^17.1.0"
+    "standard": "^17.1.0",
+    "ts-node": "^10.9.1"
   }
 }
